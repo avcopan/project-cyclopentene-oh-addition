@@ -1,0 +1,45 @@
+PivotPoints     1      
+# for long range, just 1 CM pivot point
+Frame 0 0 0 0          
+# SJK never changes -- Yuri uses it
+#          ^ ^ ^ ^
+#          1 2 3 4
+# origin: 1
+# orientation:
+#  3
+#  ^
+#  |y
+#  |  x
+#  4--->2
+
+x1 = 0  y1 = 0 z1 = 0   
+# 0, 0, 0 = CM
+# can use `tst_test` to identify radical frame
+
+PivotPoints     1       
+# same thing for second fragment...
+Frame 0 0 0 0
+
+x2 = 0  y2 = 0 z2 = 0   
+# use different labels from above
+
+# interpointal distances
+
+Distances
+
+r1 = r                  
+# label for distance between pivot points
+# might have multiple for multiple pivot points (complicated rules arise)
+
+Conditions 0            
+# only needed for mulitple distances/pivots
+
+Cycles 1                
+# cycle over dividing surfaces
+
+r = (46., 34., 26., 21., 18.5, 16., 14., 12., 10.5, 9.5, 9.0, 8.5, 8.)
+# ^ distances between pivot points
+
+EndSurface
+
+

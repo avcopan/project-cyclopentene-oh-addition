@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<molpro xmlns="http://www.molpro.net/schema/molpro-output"
+  xmlns:xsd="http://www.w3.org/1999/XMLSchema"
+  xmlns:cml="http://www.xml-cml.org/schema"
+  xmlns:stm="http://www.xml-cml.org/schema"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <job>
+  <stm:metadataList>
+   <stm:metadata name="dc:date" content="2025-09-05T09:46:58-05:00"/>
+   <stm:metadata name="dc:creator" content="copan"/>
+   <stm:metadata name="cmlm:insilico" content="Molpro"/>
+  </stm:metadataList>
+  <platform pid="3052126">
+   <version major="2024" minor="1" SHA="675817fde4514a4a933b69e420913a90cee4ef91"
+     integer_bits="64" parallelism="mpp">
+    2024.1
+    <date year="2025" month="9" day="5" hour="9" minute="46" second="58">
+     2025-09-05T09:46:58
+    </date>
+   </version>
+   <licence id="anlgov"/>
+   <parallel processes="7" nodes="1" all_processes="7" openmp="4"/>
+   <dimensions natom="400" nvalence="500" nvalence_pno="1000" nbasis="12000" nstate="100"
+     nsymm="16" nrec="1024" nprim="2" ncol="100"/>
+  </platform>
+  <jobstep command="MULTI" commandset="MULTI">
+   <cml:molecule>
+    <cml:symmetry pointGroup="C1">
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="C" x3="1.8935759771253" y3="1.41719389376321"
+       z3="-0.1966044255097E-01"/>
+     <cml:atom id="a2" elementType="C" x3="0.66399582094548" y3="2.29565798641634"
+       z3="0.29801319521562"/>
+     <cml:atom id="a3" elementType="C" x3="-0.56256048634398" y3="1.41545265626519"
+       z3="-0.2653908806061E-01"/>
+     <cml:atom id="a4" elementType="C" x3="-0.129153669515E-02" y3="0.1710374751016E-01"
+       z3="0.6148227614419E-01"/>
+     <cml:atom id="a5" elementType="C" x3="1.33384895571612" y3="0.1806292931919E-01"
+       z3="0.6521597211208E-01"/>
+     <cml:atom id="a6" elementType="H" x3="2.28019494057264" y3="1.60993002808968"
+       z3="-1.02721812814441"/>
+     <cml:atom id="a7" elementType="H" x3="2.71932554077967" y3="1.58997810842617"
+       z3="0.67430893584414"/>
+     <cml:atom id="a8" elementType="H" x3="0.66488706675314" y3="3.24023448728403"
+       z3="-0.24700902684919"/>
+     <cml:atom id="a9" elementType="H" x3="0.66085100446065" y3="2.52829835086336"
+       z3="1.36516380008312"/>
+     <cml:atom id="a10" elementType="H" x3="-1.39232126027703" y3="1.58697740774694"
+       z3="0.66294744410083"/>
+     <cml:atom id="a11" elementType="H" x3="-0.94400125135853" y3="1.6076062772829"
+       z3="-1.0361691524516"/>
+     <cml:atom id="a12" elementType="H" x3="-0.62086817408754" y3="-0.871247088705"
+       z3="0.7211800911504E-01"/>
+     <cml:atom id="a13" elementType="H" x3="1.9545297453615" y3="-0.86946432674751"
+       z3="0.7954018907553E-01"/>
+     <cml:atom id="a14" elementType="O" x3="10.0" y3="0.0" z3="0.55982453922E-03"/>
+     <cml:atom id="a15" elementType="H" x3="10.0" y3="0.0" z3="0.97055617546078"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a2"/>
+     <cml:bond atomRefs2="a2 a3"/>
+     <cml:bond atomRefs2="a3 a4"/>
+     <cml:bond atomRefs2="a1 a5"/>
+     <cml:bond atomRefs2="a4 a5"/>
+     <cml:bond atomRefs2="a1 a6"/>
+     <cml:bond atomRefs2="a1 a7"/>
+     <cml:bond atomRefs2="a2 a8"/>
+     <cml:bond atomRefs2="a2 a9"/>
+     <cml:bond atomRefs2="a3 a10"/>
+     <cml:bond atomRefs2="a3 a11"/>
+     <cml:bond atomRefs2="a4 a12"/>
+     <cml:bond atomRefs2="a5 a13"/>
+     <cml:bond atomRefs2="a14 a15"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <property name="Energy" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="-269.381490550069"/>
+   <property name="Dipole moment" method="MCSCF" principal="true" stateSymmetry="1"
+     stateNumber="1"
+     value="0.109720082249254E-02 0.502913429216895E-01 0.681121185589782"/>
+   <property name="Energy" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="-269.381487432454"/>
+   <property name="Dipole moment" method="MCSCF" principal="true" stateSymmetry="1"
+     stateNumber="2"
+     value="0.111440595642875E-02 0.502938180059034E-01 0.681120977873396"/>
+   <property name="DMX" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="0.109720082249964E-02" origin="0.0 0.0 0.0"/>
+   <property name="DMX" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="0.111440595642875E-02" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="0.50291342921696E-01" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="0.502938180058976E-01" origin="0.0 0.0 0.0"/>
+   <property name="DMZ" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="0.681121185589782" origin="0.0 0.0 0.0"/>
+   <property name="DMZ" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="0.681120977873396" origin="0.0 0.0 0.0"/>
+   <property name="DMX" method="MCSCF" principal="true" braStateSymmetry="1"
+     braStateNumber="1" ketStateSymmetry="1" ketStateNumber="2"
+     value="0.1251086187537E-05" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="MCSCF" principal="true" braStateSymmetry="1"
+     braStateNumber="1" ketStateSymmetry="1" ketStateNumber="2"
+     value="-0.865878213085474E-05" origin="0.0 0.0 0.0"/>
+   <property name="DMZ" method="MCSCF" principal="true" braStateSymmetry="1"
+     braStateNumber="1" ketStateSymmetry="1" ketStateNumber="2"
+     value="0.210391063737436E-07" origin="0.0 0.0 0.0"/>
+   <time start="09:46:58" end="09:47:10" cpu="7.09" system="1.34" real="11.56"/>
+   <storage units="megabyte" memory="1525.88" sf="189.78" df="616.99" eaf="329.55" ga="0.0"/>
+   <summary overall_method="MULTI/cc-pVDZ"/>
+  </jobstep>
+  <jobstep command="MULTI" commandset="MULTI">
+   <cml:molecule>
+    <cml:symmetry pointGroup="C1">
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="C" x3="1.8935759771253" y3="1.41719389376321"
+       z3="-0.1966044255097E-01"/>
+     <cml:atom id="a2" elementType="C" x3="0.66399582094548" y3="2.29565798641634"
+       z3="0.29801319521562"/>
+     <cml:atom id="a3" elementType="C" x3="-0.56256048634398" y3="1.41545265626519"
+       z3="-0.2653908806061E-01"/>
+     <cml:atom id="a4" elementType="C" x3="-0.129153669515E-02" y3="0.1710374751016E-01"
+       z3="0.6148227614419E-01"/>
+     <cml:atom id="a5" elementType="C" x3="1.33384895571612" y3="0.1806292931919E-01"
+       z3="0.6521597211208E-01"/>
+     <cml:atom id="a6" elementType="H" x3="2.28019494057264" y3="1.60993002808968"
+       z3="-1.02721812814441"/>
+     <cml:atom id="a7" elementType="H" x3="2.71932554077967" y3="1.58997810842617"
+       z3="0.67430893584414"/>
+     <cml:atom id="a8" elementType="H" x3="0.66488706675314" y3="3.24023448728403"
+       z3="-0.24700902684919"/>
+     <cml:atom id="a9" elementType="H" x3="0.66085100446065" y3="2.52829835086336"
+       z3="1.36516380008312"/>
+     <cml:atom id="a10" elementType="H" x3="-1.39232126027703" y3="1.58697740774694"
+       z3="0.66294744410083"/>
+     <cml:atom id="a11" elementType="H" x3="-0.94400125135853" y3="1.6076062772829"
+       z3="-1.0361691524516"/>
+     <cml:atom id="a12" elementType="H" x3="-0.62086817408754" y3="-0.871247088705"
+       z3="0.7211800911504E-01"/>
+     <cml:atom id="a13" elementType="H" x3="1.9545297453615" y3="-0.86946432674751"
+       z3="0.7954018907553E-01"/>
+     <cml:atom id="a14" elementType="O" x3="40.0" y3="0.0" z3="0.55982453922E-03"/>
+     <cml:atom id="a15" elementType="H" x3="40.0" y3="0.0" z3="0.97055617546078"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a2"/>
+     <cml:bond atomRefs2="a2 a3"/>
+     <cml:bond atomRefs2="a3 a4"/>
+     <cml:bond atomRefs2="a1 a5"/>
+     <cml:bond atomRefs2="a4 a5"/>
+     <cml:bond atomRefs2="a1 a6"/>
+     <cml:bond atomRefs2="a1 a7"/>
+     <cml:bond atomRefs2="a2 a8"/>
+     <cml:bond atomRefs2="a2 a9"/>
+     <cml:bond atomRefs2="a3 a10"/>
+     <cml:bond atomRefs2="a3 a11"/>
+     <cml:bond atomRefs2="a4 a12"/>
+     <cml:bond atomRefs2="a5 a13"/>
+     <cml:bond atomRefs2="a14 a15"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <property name="Energy" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="-269.381486837158"/>
+   <property name="Dipole moment" method="MCSCF" principal="true" stateSymmetry="1"
+     stateNumber="1"
+     value="0.302336009383453E-04 0.504288925082837E-01 0.686016069010761"/>
+   <property name="Energy" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="-269.381486831157"/>
+   <property name="Dipole moment" method="MCSCF" principal="true" stateSymmetry="1"
+     stateNumber="2"
+     value="0.30335391556946E-04 0.504288716376455E-01 0.686016069063969"/>
+   <property name="DMX" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="0.302336009099236E-04" origin="0.0 0.0 0.0"/>
+   <property name="DMX" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="0.30335391556946E-04" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="0.50428892508279E-01" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="0.504288716376493E-01" origin="0.0 0.0 0.0"/>
+   <property name="DMZ" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="0.686016069010761" origin="0.0 0.0 0.0"/>
+   <property name="DMZ" method="MCSCF" principal="true" stateSymmetry="1" stateNumber="2"
+     value="0.686016069063968" origin="0.0 0.0 0.0"/>
+   <property name="DMX" method="MCSCF" principal="true" braStateSymmetry="1"
+     braStateNumber="1" ketStateSymmetry="1" ketStateNumber="2"
+     value="-0.104128261568803E-07" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="MCSCF" principal="true" braStateSymmetry="1"
+     braStateNumber="1" ketStateSymmetry="1" ketStateNumber="2"
+     value="-0.509130840017102E-07" origin="0.0 0.0 0.0"/>
+   <time start="09:47:10" end="09:47:13" cpu="2.44" system="0.34" real="3.1"/>
+   <storage units="megabyte" memory="1525.88" sf="189.78" df="623.61" eaf="329.55" ga="0.0"/>
+   <summary overall_method="MULTI/cc-pVDZ"/>
+  </jobstep>
+  <jobstep command="RS2" commandset="CIPRO">
+   <property name="Energy" method="RSPT2" principal="true" stateSymmetry="1" stateNumber="1"
+     value="-270.223495955972"/>
+   <property name="Dipole moment" method="RSPT2" principal="true" stateSymmetry="1"
+     stateNumber="1"
+     value="0.307269230006568E-04 0.508277335122358E-01 0.685684317158604"/>
+   <property name="Energy" method="RSPT2" principal="true" stateSymmetry="1" stateNumber="2"
+     value="-270.22349594994"/>
+   <property name="Dipole moment" method="RSPT2" principal="true" stateSymmetry="1"
+     stateNumber="2"
+     value="0.288817489035864E-04 0.508259212682987E-01 0.685684328254075"/>
+   <property name="DMX" method="RSPT" principal="true" braStateSymmetry="1"
+     braStateNumber="2" ketStateSymmetry="1" ketStateNumber="1"
+     value="0.162200630226295E-05" origin="0.0 0.0 0.0"/>
+   <property name="DMY" method="RSPT" principal="true" braStateSymmetry="1"
+     braStateNumber="2" ketStateSymmetry="1" ketStateNumber="1"
+     value="-0.600373683436054E-06" origin="0.0 0.0 0.0"/>
+   <time start="09:47:13" end="09:47:16" cpu="1.76" system="0.99" real="2.85"/>
+   <storage units="megabyte" memory="1525.88" sf="806.46" df="1396.89" eaf="329.55"
+     ga="0.0"/>
+   <summary overall_method="RS2/cc-pVDZ"/>
+  </jobstep>
+  <input>
+   <p>memory,200,m</p>
+   <p>geometry={angs</p>
+   <p>  C          1.89357597712530      1.41719389376321     -0.01966044255097</p>
+   <p>  C          0.66399582094548      2.29565798641634      0.29801319521562</p>
+   <p>  C         -0.56256048634398      1.41545265626519     -0.02653908806061</p>
+   <p>  C         -0.00129153669515      0.01710374751016      0.06148227614419</p>
+   <p>  C          1.33384895571612      0.01806292931919      0.06521597211208</p>
+   <p>  H          2.28019494057264      1.60993002808968     -1.02721812814441</p>
+   <p>  H          2.71932554077967      1.58997810842617      0.67430893584414</p>
+   <p>  H          0.66488706675314      3.24023448728403     -0.24700902684919</p>
+   <p>  H          0.66085100446065      2.52829835086336      1.36516380008312</p>
+   <p>  H         -1.39232126027703      1.58697740774694      0.66294744410083</p>
+   <p>  H         -0.94400125135853      1.60760627728290     -1.03616915245160</p>
+   <p>  H         -0.62086817408754     -0.87124708870500      0.07211800911504</p>
+   <p>  H          1.95452974536150     -0.86946432674751      0.07954018907553</p>
+   <p>  O          10.00000000000000      0.00000000000000      0.00055982453922</p>
+   <p>  H          10.00000000000000      0.00000000000000      0.97055617546078</p>
+   <p>}</p>
+   <p>basis=cc-pvdz</p>
+   <p>{multi;closed,22;occ,24;wf,47,1,1;state,2;orbprint,3}</p>
+   <p>geometry={angs</p>
+   <p>  C          1.89357597712530      1.41719389376321     -0.01966044255097</p>
+   <p>  C          0.66399582094548      2.29565798641634      0.29801319521562</p>
+   <p>  C         -0.56256048634398      1.41545265626519     -0.02653908806061</p>
+   <p>  C         -0.00129153669515      0.01710374751016      0.06148227614419</p>
+   <p>  C          1.33384895571612      0.01806292931919      0.06521597211208</p>
+   <p>  H          2.28019494057264      1.60993002808968     -1.02721812814441</p>
+   <p>  H          2.71932554077967      1.58997810842617      0.67430893584414</p>
+   <p>  H          0.66488706675314      3.24023448728403     -0.24700902684919</p>
+   <p>  H          0.66085100446065      2.52829835086336      1.36516380008312</p>
+   <p>  H         -1.39232126027703      1.58697740774694      0.66294744410083</p>
+   <p>  H         -0.94400125135853      1.60760627728290     -1.03616915245160</p>
+   <p>  H         -0.62086817408754     -0.87124708870500      0.07211800911504</p>
+   <p>  H          1.95452974536150     -0.86946432674751      0.07954018907553</p>
+   <p>  O          40.00000000000000      0.00000000000000      0.00055982453922</p>
+   <p>  H          40.00000000000000      0.00000000000000      0.97055617546078</p>
+   <p>}</p>
+   <p>{multi;closed,22;occ,24;wf,47,1,1;state,2;orbprint,3}</p>
+   <p>rs2,shift=0.2,mix=2;state,2</p>
+  </input>
+  <diagnostics warnings="0"/>
+ </job>
+</molpro>

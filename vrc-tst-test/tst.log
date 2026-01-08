@@ -1,0 +1,370 @@
+master: fpe_status: inexact
+node  1: fpe_status: inexact
+node  2: fpe_status: inexact
+node  3: fpe_status: inexact
+node  4: fpe_status: inexact
+node  5: fpe_status: inexact
+node  6: fpe_status: inexact
+node  7: fpe_status: inexact
+node  8: fpe_status: inexact
+node  9: fpe_status: inexact
+node 10: fpe_status: inexact
+node 11: fpe_status: inexact
+node 12: fpe_status: inexact
+node 13: fpe_status: inexact
+node 14: fpe_status: inexact
+node 15: fpe_status: inexact
+node 16: fpe_status: inexact
+node 17: fpe_status: inexact
+node 18: fpe_status: inexact
+node 19: fpe_status: inexact
+node 20: fpe_status: inexact
+node 21: fpe_status: inexact
+node 22: fpe_status: inexact
+node 23: fpe_status: inexact
+node 24: fpe_status: inexact
+node 25: fpe_status: inexact
+node 26: fpe_status: inexact
+node 27: fpe_status: inexact
+node 28: fpe_status: inexact
+node 29: fpe_status: inexact
+node 30: fpe_status: inexact
+node 31: fpe_status: inexact
+node 32: fpe_status: inexact
+node 33: fpe_status: inexact
+node 34: fpe_status: inexact
+node 35: fpe_status: inexact
+node 36: fpe_status: inexact
+node 37: fpe_status: inexact
+node 38: fpe_status: inexact
+node 39: fpe_status: inexact
+node 40: fpe_status: inexact
+node 41: fpe_status: inexact
+node 42: fpe_status: inexact
+node 43: fpe_status: inexact
+node 44: fpe_status: inexact
+node 45: fpe_status: inexact
+node 46: fpe_status: inexact
+node 47: fpe_status: inexact
+node 48: fpe_status: inexact
+node 49: fpe_status: inexact
+node 50: fpe_status: inexact
+node 51: fpe_status: inexact
+node 52: fpe_status: inexact
+node 53: fpe_status: inexact
+node 54: fpe_status: inexact
+node 55: fpe_status: inexact
+node 56: fpe_status: inexact
+node 57: fpe_status: inexact
+node 58: fpe_status: inexact
+node 59: fpe_status: inexact
+node 60: fpe_status: inexact
+node 61: fpe_status: inexact
+node 62: fpe_status: inexact
+node 63: fpe_status: inexact
+node 64: fpe_status: inexact
+node 65: fpe_status: inexact
+node 66: fpe_status: inexact
+node 67: fpe_status: inexact
+node 68: fpe_status: inexact
+node 69: fpe_status: inexact
+node 70: fpe_status: inexact
+node 71: fpe_status: inexact
+node 72: fpe_status: inexact
+node 73: fpe_status: inexact
+node 74: fpe_status: inexact
+
+master: tmpr_grid: using old input format: maximal term = 3545.84 Kelvin
+master: ener_grid: using old input format: maximal term = 2.36419e+06 Kelvin
+master: amom_grid: using old input format: maximal term = 3171.57 au
+master: flux_out_mode is not registered as a keyword: treating the whole line as a comment
+master: priority_exp is not registered as a keyword: treating the whole line as a comment
+master: sampling is not registered as a keyword: treating the whole line as a comment
+master: ds_inp_file is not registered as a keyword: treating the whole line as a comment
+master: ds_out_file is not registered as a keyword: treating the whole line as a comment
+master: therm_flux_out is not registered as a keyword: treating the whole line as a comment
+master: therm_flux_name is not registered as a keyword: treating the whole line as a comment
+master: raw_smp_file is not registered as a keyword: treating the whole line as a comment
+master: is_smp_out is not registered as a keyword: treating the whole line as a comment
+
+Default parameters:
+column_size         9
+corr_file           
+divsur_file         divsur.inp
+divsur_type         multifacet
+fail_num_max        10
+large_distance      -1
+log_level           info
+opt_type            none
+random_update       10000
+smp_data_file       smp.dat
+smp_out_flag        0
+smp_save_file       smp.save
+thermal_data_file   flux.out
+vol_num_max         1000
+
+n =  61   maximal temperature, K   = 3545
+n = 179   maximal energy, kcal/mol = 4698
+n =  50   maximal angular momentum = 3171
+
+master: 	host = csed-0030 	process =  1277217
+node  1: 	host = csed-0030 	process =  1277218
+node  2: 	host = csed-0030 	process =  1277219
+node  3: 	host = csed-0030 	process =  1277220
+node  4: 	host = csed-0030 	process =  1277221
+node  5: 	host = csed-0030 	process =  1277222
+node  6: 	host = csed-0030 	process =  1277223
+node  7: 	host = csed-0030 	process =  1277224
+node  8: 	host = csed-0030 	process =  1277225
+node  9: 	host = csed-0030 	process =  1277226
+node 10: 	host = csed-0030 	process =  1277227
+node 11: 	host = csed-0030 	process =  1277228
+node 12: 	host = csed-0030 	process =  1277229
+node 13: 	host = csed-0030 	process =  1277230
+node 14: 	host = csed-0030 	process =  1277231
+node 15: 	host = csed-0031 	process =  1077382
+node 16: 	host = csed-0031 	process =  1077383
+node 17: 	host = csed-0031 	process =  1077384
+node 18: 	host = csed-0031 	process =  1077385
+node 19: 	host = csed-0031 	process =  1077386
+node 20: 	host = csed-0031 	process =  1077387
+node 21: 	host = csed-0031 	process =  1077388
+node 22: 	host = csed-0031 	process =  1077389
+node 23: 	host = csed-0031 	process =  1077390
+node 24: 	host = csed-0031 	process =  1077391
+node 25: 	host = csed-0031 	process =  1077392
+node 26: 	host = csed-0031 	process =  1077393
+node 27: 	host = csed-0031 	process =  1077394
+node 28: 	host = csed-0031 	process =  1077395
+node 29: 	host = csed-0031 	process =  1077396
+node 30: 	host = csed-0032 	process =  969706
+node 31: 	host = csed-0032 	process =  969707
+node 32: 	host = csed-0032 	process =  969708
+node 33: 	host = csed-0032 	process =  969709
+node 34: 	host = csed-0032 	process =  969710
+node 35: 	host = csed-0032 	process =  969711
+node 36: 	host = csed-0032 	process =  969712
+node 37: 	host = csed-0032 	process =  969713
+node 38: 	host = csed-0032 	process =  969714
+node 39: 	host = csed-0032 	process =  969715
+node 40: 	host = csed-0032 	process =  969716
+node 41: 	host = csed-0032 	process =  969717
+node 42: 	host = csed-0032 	process =  969718
+node 43: 	host = csed-0032 	process =  969719
+node 44: 	host = csed-0032 	process =  969720
+node 45: 	host = csed-0033 	process =  3584363
+node 46: 	host = csed-0033 	process =  3584364
+node 47: 	host = csed-0033 	process =  3584365
+node 48: 	host = csed-0033 	process =  3584366
+node 49: 	host = csed-0033 	process =  3584367
+node 50: 	host = csed-0033 	process =  3584368
+node 51: 	host = csed-0033 	process =  3584369
+node 52: 	host = csed-0033 	process =  3584370
+node 53: 	host = csed-0033 	process =  3584371
+node 54: 	host = csed-0033 	process =  3584372
+node 55: 	host = csed-0033 	process =  3584373
+node 56: 	host = csed-0033 	process =  3584374
+node 57: 	host = csed-0033 	process =  3584375
+node 58: 	host = csed-0033 	process =  3584376
+node 59: 	host = csed-0033 	process =  3584377
+node 60: 	host = csed-0034 	process =  3603435
+node 61: 	host = csed-0034 	process =  3603436
+node 62: 	host = csed-0034 	process =  3603437
+node 63: 	host = csed-0034 	process =  3603438
+node 64: 	host = csed-0034 	process =  3603439
+node 65: 	host = csed-0034 	process =  3603440
+node 66: 	host = csed-0034 	process =  3603441
+node 67: 	host = csed-0034 	process =  3603442
+node 68: 	host = csed-0034 	process =  3603443
+node 69: 	host = csed-0034 	process =  3603444
+node 70: 	host = csed-0034 	process =  3603445
+node 71: 	host = csed-0034 	process =  3603446
+node 72: 	host = csed-0034 	process =  3603447
+node 73: 	host = csed-0034 	process =  3603448
+node 74: 	host = csed-0034 	process =  3603449
+
+node  1: setting molpro potential:
+Molpro::init: FailurePattern is not found in molpro.inp; using the default: molpro_failure
+node  1: changing work directory:
+node  1: new work directory is scratch/node1
+node  1: setting local logging to molpro.log
+
+master: fpe_status: inexact
+node  1: fpe_status: inexact
+node  2: fpe_status: inexact
+node  3: fpe_status: inexact
+node  4: fpe_status: inexact
+node  5: fpe_status: inexact
+node  6: fpe_status: inexact
+node  7: fpe_status: inexact
+node  8: fpe_status: inexact
+node  9: fpe_status: inexact
+node 10: fpe_status: inexact
+node 11: fpe_status: inexact
+node 12: fpe_status: inexact
+node 13: fpe_status: inexact
+node 14: fpe_status: inexact
+node 15: fpe_status: inexact
+node 16: fpe_status: inexact
+node 17: fpe_status: inexact
+node 18: fpe_status: inexact
+node 19: fpe_status: inexact
+node 20: fpe_status: inexact
+node 21: fpe_status: inexact
+node 22: fpe_status: inexact
+node 23: fpe_status: inexact
+node 24: fpe_status: inexact
+node 25: fpe_status: inexact
+node 26: fpe_status: inexact
+node 27: fpe_status: inexact
+node 28: fpe_status: inexact
+node 29: fpe_status: inexact
+node 30: fpe_status: inexact
+node 31: fpe_status: inexact
+node 32: fpe_status: inexact
+node 33: fpe_status: inexact
+node 34: fpe_status: inexact
+node 35: fpe_status: inexact
+node 36: fpe_status: inexact
+node 37: fpe_status: inexact
+node 38: fpe_status: inexact
+node 39: fpe_status: inexact
+node 40: fpe_status: inexact
+node 41: fpe_status: inexact
+node 42: fpe_status: inexact
+node 43: fpe_status: inexact
+node 44: fpe_status: inexact
+node 45: fpe_status: inexact
+node 46: fpe_status: inexact
+node 47: fpe_status: inexact
+node 48: fpe_status: inexact
+node 49: fpe_status: inexact
+node 50: fpe_status: inexact
+node 51: fpe_status: inexact
+node 52: fpe_status: inexact
+node 53: fpe_status: inexact
+node 54: fpe_status: inexact
+node 55: fpe_status: inexact
+node 56: fpe_status: inexact
+node 57: fpe_status: inexact
+node 58: fpe_status: inexact
+node 59: fpe_status: inexact
+node 60: fpe_status: inexact
+node 61: fpe_status: inexact
+node 62: fpe_status: inexact
+node 63: fpe_status: inexact
+node 64: fpe_status: inexact
+node 65: fpe_status: inexact
+node 66: fpe_status: inexact
+node 67: fpe_status: inexact
+node 68: fpe_status: inexact
+node 69: fpe_status: inexact
+node 70: fpe_status: inexact
+node 71: fpe_status: inexact
+node 72: fpe_status: inexact
+node 73: fpe_status: inexact
+node 74: fpe_status: inexact
+
+master: fpe_status: OK
+master: Starting calculation ...
+
+master: fpe_status: inexact
+master: flux through the 2-th surface is done
+master: intermediate flux data saved in flux.save file
+master: flux through the 3-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 0-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 4-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 1-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 5-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 6-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 7-th surface is done
+
+master: no work to be done: exitting...
+node  1: exitting...
+node  2: exitting...
+node  3: exitting...
+node  4: exitting...
+node  5: exitting...
+node  6: exitting...
+node  7: exitting...
+node  8: exitting...
+node  9: exitting...
+node 10: exitting...
+node 11: exitting...
+node 12: exitting...
+node 13: exitting...
+node 14: exitting...
+node 15: exitting...
+node 16: exitting...
+node 17: exitting...
+node 18: exitting...
+node 19: exitting...
+node 20: exitting...
+node 21: exitting...
+node 22: exitting...
+node 23: exitting...
+node 24: exitting...
+node 25: exitting...
+node 26: exitting...
+node 27: exitting...
+node 28: exitting...
+node 29: exitting...
+node 30: exitting...
+node 31: exitting...
+node 32: exitting...
+node 33: exitting...
+node 34: exitting...
+node 35: exitting...
+node 36: exitting...
+node 37: exitting...
+node 38: exitting...
+node 39: exitting...
+node 40: exitting...
+node 41: exitting...
+node 42: exitting...
+node 43: exitting...
+node 44: exitting...
+node 45: exitting...
+node 46: exitting...
+node 47: exitting...
+node 48: exitting...
+node 49: exitting...
+node 50: exitting...
+node 51: exitting...
+node 52: exitting...
+node 53: exitting...
+node 54: exitting...
+node 55: exitting...
+node 56: exitting...
+node 57: exitting...
+node 58: exitting...
+node 59: exitting...
+node 60: exitting...
+node 61: exitting...
+node 62: exitting...
+node 63: exitting...
+node 64: exitting...
+node 65: exitting...
+node 66: exitting...
+node 67: exitting...
+node 68: exitting...
+node 69: exitting...
+node 70: exitting...
+node 71: exitting...
+node 72: exitting...
+node 73: exitting...
+node 74: exitting...
+
+Comm::cleanup: MPI round up ...

@@ -1,0 +1,10 @@
+MolproExecFile              /home/ygeorgievski/bin/molpro-for-rotd
+GeometryPattern             GEOMETRY_HERE
+EnergyPattern               molpro_energy
+BaseFileName                cyC5e1POH
+DebugLevel                  5
+PotentialCorrectionTable    /tcghome/sjk/corr_pot/64bit/libcorrpotc.so
+dummy_corr_                 2
+dummy_corr_                 1
+End
+
