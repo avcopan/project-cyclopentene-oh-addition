@@ -1,0 +1,1281 @@
+master: fpe_status: inexact
+node  1: fpe_status: inexact
+node  2: fpe_status: inexact
+node  3: fpe_status: inexact
+node  4: fpe_status: inexact
+node  5: fpe_status: inexact
+node  6: fpe_status: inexact
+node  7: fpe_status: inexact
+node  8: fpe_status: inexact
+node  9: fpe_status: inexact
+node 10: fpe_status: inexact
+node 11: fpe_status: inexact
+node 12: fpe_status: inexact
+node 13: fpe_status: inexact
+node 14: fpe_status: inexact
+node 15: fpe_status: inexact
+node 16: fpe_status: inexact
+node 17: fpe_status: inexact
+node 18: fpe_status: inexact
+node 19: fpe_status: inexact
+node 20: fpe_status: inexact
+node 21: fpe_status: inexact
+node 22: fpe_status: inexact
+node 23: fpe_status: inexact
+node 24: fpe_status: inexact
+node 25: fpe_status: inexact
+node 26: fpe_status: inexact
+node 27: fpe_status: inexact
+node 28: fpe_status: inexact
+node 29: fpe_status: inexact
+node 30: fpe_status: inexact
+node 31: fpe_status: inexact
+node 32: fpe_status: inexact
+node 33: fpe_status: inexact
+node 34: fpe_status: inexact
+node 35: fpe_status: inexact
+node 36: fpe_status: inexact
+node 37: fpe_status: inexact
+node 38: fpe_status: inexact
+node 39: fpe_status: inexact
+node 40: fpe_status: inexact
+node 41: fpe_status: inexact
+node 42: fpe_status: inexact
+node 43: fpe_status: inexact
+node 44: fpe_status: inexact
+node 45: fpe_status: inexact
+node 46: fpe_status: inexact
+node 47: fpe_status: inexact
+node 48: fpe_status: inexact
+node 49: fpe_status: inexact
+node 50: fpe_status: inexact
+node 51: fpe_status: inexact
+node 52: fpe_status: inexact
+node 53: fpe_status: inexact
+node 54: fpe_status: inexact
+node 55: fpe_status: inexact
+node 56: fpe_status: inexact
+node 57: fpe_status: inexact
+node 58: fpe_status: inexact
+node 59: fpe_status: inexact
+node 60: fpe_status: inexact
+node 61: fpe_status: inexact
+node 62: fpe_status: inexact
+node 63: fpe_status: inexact
+node 64: fpe_status: inexact
+node 65: fpe_status: inexact
+node 66: fpe_status: inexact
+node 67: fpe_status: inexact
+node 68: fpe_status: inexact
+node 69: fpe_status: inexact
+node 70: fpe_status: inexact
+node 71: fpe_status: inexact
+node 72: fpe_status: inexact
+node 73: fpe_status: inexact
+node 74: fpe_status: inexact
+
+master: tmpr_grid: using old input format: maximal term = 3545.84 Kelvin
+master: ener_grid: using old input format: maximal term = 2.36419e+06 Kelvin
+master: amom_grid: using old input format: maximal term = 3171.57 au
+master: flux_out_mode is not registered as a keyword: treating the whole line as a comment
+master: priority_exp is not registered as a keyword: treating the whole line as a comment
+master: sampling is not registered as a keyword: treating the whole line as a comment
+master: ds_inp_file is not registered as a keyword: treating the whole line as a comment
+master: ds_out_file is not registered as a keyword: treating the whole line as a comment
+master: therm_flux_out is not registered as a keyword: treating the whole line as a comment
+master: therm_flux_name is not registered as a keyword: treating the whole line as a comment
+master: raw_smp_file is not registered as a keyword: treating the whole line as a comment
+master: is_smp_out is not registered as a keyword: treating the whole line as a comment
+
+Default parameters:
+column_size         9
+corr_file           
+divsur_file         divsur.inp
+divsur_type         multifacet
+fail_num_max        10
+large_distance      -1
+log_level           info
+opt_type            none
+random_update       10000
+smp_data_file       smp.dat
+smp_out_flag        0
+smp_save_file       smp.save
+thermal_data_file   flux.out
+vol_num_max         1000
+
+n =  61   maximal temperature, K   = 3545
+n = 179   maximal energy, kcal/mol = 4698
+n =  50   maximal angular momentum = 3171
+
+master: 	host = csed-0020 	process =  3946318
+node  1: 	host = csed-0020 	process =  3946319
+node  2: 	host = csed-0020 	process =  3946320
+node  3: 	host = csed-0020 	process =  3946321
+node  4: 	host = csed-0020 	process =  3946322
+node  5: 	host = csed-0020 	process =  3946323
+node  6: 	host = csed-0020 	process =  3946324
+node  7: 	host = csed-0020 	process =  3946325
+node  8: 	host = csed-0020 	process =  3946326
+node  9: 	host = csed-0020 	process =  3946327
+node 10: 	host = csed-0020 	process =  3946328
+node 11: 	host = csed-0020 	process =  3946329
+node 12: 	host = csed-0020 	process =  3946330
+node 13: 	host = csed-0020 	process =  3946331
+node 14: 	host = csed-0020 	process =  3946332
+node 15: 	host = csed-0021 	process =  685865
+node 16: 	host = csed-0021 	process =  685866
+node 17: 	host = csed-0021 	process =  685867
+node 18: 	host = csed-0021 	process =  685868
+node 19: 	host = csed-0021 	process =  685869
+node 20: 	host = csed-0021 	process =  685870
+node 21: 	host = csed-0021 	process =  685871
+node 22: 	host = csed-0021 	process =  685872
+node 23: 	host = csed-0021 	process =  685873
+node 24: 	host = csed-0021 	process =  685874
+node 25: 	host = csed-0021 	process =  685875
+node 26: 	host = csed-0021 	process =  685876
+node 27: 	host = csed-0021 	process =  685877
+node 28: 	host = csed-0021 	process =  685878
+node 29: 	host = csed-0021 	process =  685879
+node 30: 	host = csed-0022 	process =  1836404
+node 31: 	host = csed-0022 	process =  1836405
+node 32: 	host = csed-0022 	process =  1836406
+node 33: 	host = csed-0022 	process =  1836407
+node 34: 	host = csed-0022 	process =  1836408
+node 35: 	host = csed-0022 	process =  1836409
+node 36: 	host = csed-0022 	process =  1836410
+node 37: 	host = csed-0022 	process =  1836411
+node 38: 	host = csed-0022 	process =  1836412
+node 39: 	host = csed-0022 	process =  1836413
+node 40: 	host = csed-0022 	process =  1836414
+node 41: 	host = csed-0022 	process =  1836415
+node 42: 	host = csed-0022 	process =  1836416
+node 43: 	host = csed-0022 	process =  1836417
+node 44: 	host = csed-0022 	process =  1836418
+node 45: 	host = csed-0023 	process =  1697028
+node 46: 	host = csed-0023 	process =  1697029
+node 47: 	host = csed-0023 	process =  1697030
+node 48: 	host = csed-0023 	process =  1697031
+node 49: 	host = csed-0023 	process =  1697032
+node 50: 	host = csed-0023 	process =  1697033
+node 51: 	host = csed-0023 	process =  1697034
+node 52: 	host = csed-0023 	process =  1697035
+node 53: 	host = csed-0023 	process =  1697036
+node 54: 	host = csed-0023 	process =  1697037
+node 55: 	host = csed-0023 	process =  1697038
+node 56: 	host = csed-0023 	process =  1697039
+node 57: 	host = csed-0023 	process =  1697040
+node 58: 	host = csed-0023 	process =  1697041
+node 59: 	host = csed-0023 	process =  1697042
+node 60: 	host = csed-0024 	process =  1118331
+node 61: 	host = csed-0024 	process =  1118332
+node 62: 	host = csed-0024 	process =  1118333
+node 63: 	host = csed-0024 	process =  1118334
+node 64: 	host = csed-0024 	process =  1118335
+node 65: 	host = csed-0024 	process =  1118336
+node 66: 	host = csed-0024 	process =  1118337
+node 67: 	host = csed-0024 	process =  1118338
+node 68: 	host = csed-0024 	process =  1118339
+node 69: 	host = csed-0024 	process =  1118340
+node 70: 	host = csed-0024 	process =  1118341
+node 71: 	host = csed-0024 	process =  1118342
+node 72: 	host = csed-0024 	process =  1118343
+node 73: 	host = csed-0024 	process =  1118344
+node 74: 	host = csed-0024 	process =  1118345
+
+node  1: setting molpro potential:
+Molpro::init: FailurePattern is not defined and will not be used
+node  1: changing work directory:
+node  1: scratch/node1 does not exist: trying to create it ... success
+node  1: new work directory is scratch/node1
+node  1: setting local logging to molpro.log
+
+master: fpe_status: inexact
+node  1: fpe_status: inexact
+node  2: fpe_status: inexact
+node  3: fpe_status: inexact
+node  4: fpe_status: inexact
+node  5: fpe_status: inexact
+node  6: fpe_status: inexact
+node  7: fpe_status: inexact
+node  8: fpe_status: inexact
+node  9: fpe_status: inexact
+node 10: fpe_status: inexact
+node 11: fpe_status: inexact
+node 12: fpe_status: inexact
+node 13: fpe_status: inexact
+node 14: fpe_status: inexact
+node 15: fpe_status: inexact
+node 16: fpe_status: inexact
+node 17: fpe_status: inexact
+node 18: fpe_status: inexact
+node 19: fpe_status: inexact
+node 20: fpe_status: inexact
+node 21: fpe_status: inexact
+node 22: fpe_status: inexact
+node 23: fpe_status: inexact
+node 24: fpe_status: inexact
+node 25: fpe_status: inexact
+node 26: fpe_status: inexact
+node 27: fpe_status: inexact
+node 28: fpe_status: inexact
+node 29: fpe_status: inexact
+node 30: fpe_status: inexact
+node 31: fpe_status: inexact
+node 32: fpe_status: inexact
+node 33: fpe_status: inexact
+node 34: fpe_status: inexact
+node 35: fpe_status: inexact
+node 36: fpe_status: inexact
+node 37: fpe_status: inexact
+node 38: fpe_status: inexact
+node 39: fpe_status: inexact
+node 40: fpe_status: inexact
+node 41: fpe_status: inexact
+node 42: fpe_status: inexact
+node 43: fpe_status: inexact
+node 44: fpe_status: inexact
+node 45: fpe_status: inexact
+node 46: fpe_status: inexact
+node 47: fpe_status: inexact
+node 48: fpe_status: inexact
+node 49: fpe_status: inexact
+node 50: fpe_status: inexact
+node 51: fpe_status: inexact
+node 52: fpe_status: inexact
+node 53: fpe_status: inexact
+node 54: fpe_status: inexact
+node 55: fpe_status: inexact
+node 56: fpe_status: inexact
+node 57: fpe_status: inexact
+node 58: fpe_status: inexact
+node 59: fpe_status: inexact
+node 60: fpe_status: inexact
+node 61: fpe_status: inexact
+node 62: fpe_status: inexact
+node 63: fpe_status: inexact
+node 64: fpe_status: inexact
+node 65: fpe_status: inexact
+node 66: fpe_status: inexact
+node 67: fpe_status: inexact
+node 68: fpe_status: inexact
+node 69: fpe_status: inexact
+node 70: fpe_status: inexact
+node 71: fpe_status: inexact
+node 72: fpe_status: inexact
+node 73: fpe_status: inexact
+node 74: fpe_status: inexact
+
+master: fpe_status: OK
+master: Starting calculation ...
+
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 73: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 69: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 69: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 69: flux sampling failed: exitting...
+node 73: flux sampling failed: exitting...
+node 63: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 63: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 73 failed: excluded
+node 63: flux sampling failed: exitting...
+master: main: node 69 failed: excluded
+master: main: node 63 failed: excluded
+master: main: node 61 failed: excluded
+master: main: node 71 failed: excluded
+node 61: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 61: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 71: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 71: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 61: flux sampling failed: exitting...
+node 71: flux sampling failed: exitting...
+node 67: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 67: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 67: flux sampling failed: exitting...
+master: main: node 67 failed: excluded
+node 65: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 65: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 65 failed: excluded
+node 65: flux sampling failed: exitting...
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 13: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 11: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 11: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 11: flux sampling failed: exitting...
+node 13: flux sampling failed: exitting...
+node  3: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 3: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node  9: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 9: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node  3: flux sampling failed: exitting...
+node  9: flux sampling failed: exitting...
+node  1: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 1: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node  1: flux sampling failed: exitting...
+node  5: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 5: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 13 failed: excluded
+node  5: flux sampling failed: exitting...
+master: main: node 11 failed: excluded
+master: main: node 3 failed: excluded
+master: main: node 9 failed: excluded
+master: main: node 1 failed: excluded
+master: main: node 5 failed: excluded
+node 43: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 43: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 37: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 37: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 37: flux sampling failed: exitting...
+master: main: node 35 failed: excluded
+master: main: node 37 failed: excluded
+master: main: node 43 failed: excluded
+node 35: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 35: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 35: flux sampling failed: exitting...
+node 43: flux sampling failed: exitting...
+node  7: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 7: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node  7: flux sampling failed: exitting...
+master: main: node 7 failed: excluded
+node 39: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 39: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 39: flux sampling failed: exitting...
+node 33: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 33: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 39 failed: excluded
+master: main: node 33 failed: excluded
+node 33: flux sampling failed: exitting...
+node 31: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 31: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 31: flux sampling failed: exitting...
+master: main: node 31 failed: excluded
+node 41: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 41: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 41: flux sampling failed: exitting...
+master: main: node 41 failed: excluded
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 28: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 28: flux sampling failed: exitting...
+master: main: node 28 failed: excluded
+node 24: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 24: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 24: flux sampling failed: exitting...
+master: main: node 24 failed: excluded
+node 20: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 20: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 20 failed: excluded
+node 20: flux sampling failed: exitting...
+node 18: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 18: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 18: flux sampling failed: exitting...
+master: main: node 18 failed: excluded
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 26: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 26: flux sampling failed: exitting...
+node 16: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 16: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 16: flux sampling failed: exitting...
+master: main: node 26 failed: excluded
+master: main: node 16 failed: excluded
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 22: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 22: flux sampling failed: exitting...
+master: main: node 22 failed: excluded
+node 54: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 54: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 54: flux sampling failed: exitting...
+node 52: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 52: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 52: flux sampling failed: exitting...
+master: main: node 54 failed: excluded
+master: main: node 52 failed: excluded
+node 46: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 46: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 46: flux sampling failed: exitting...
+master: main: node 46 failed: excluded
+node 50: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 50: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 50: flux sampling failed: exitting...
+master: main: node 50 failed: excluded
+node 48: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 48: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 48: flux sampling failed: exitting...
+node 58: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 58: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 48 failed: excluded
+master: main: node 58 failed: excluded
+node 58: flux sampling failed: exitting...
+node 47: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 47: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 47: flux sampling failed: exitting...
+master: main: node 47 failed: excluded
+node 68: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 68: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 68: flux sampling failed: exitting...
+node 62: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 62: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 62: flux sampling failed: exitting...
+master: main: node 68 failed: excluded
+master: main: node 62 failed: excluded
+node  4: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 4: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node  4: flux sampling failed: exitting...
+master: main: node 4 failed: excluded
+node 49: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 49: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 49: flux sampling failed: exitting...
+node 55: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 55: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 55: flux sampling failed: exitting...
+master: main: node 49 failed: excluded
+master: main: node 55 failed: excluded
+node 23: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 23: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 34: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 34: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 34 failed: excluded
+node 21: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 21: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+node 21: flux sampling failed: exitting...
+node 34: flux sampling failed: exitting...
+master: main: node 23 failed: excluded
+master: main: node 21 failed: excluded
+node 23: flux sampling failed: exitting...
+node 40: MultiFlux::MultiFlux: Oops!!! Caught exception from potential function
+node 40: MultiFlux::MultiFlux: Oops!!! all potential calculations failed
+master: main: node 40 failed: excluded
+node 40: flux sampling failed: exitting...
+master: fpe_status: inexact
+master: flux through the 0-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 1-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 2-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 3-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 4-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 5-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 6-th surface is done
+master: intermediate flux data saved in flux.save file
+master: fpe_status: inexact
+master: flux through the 7-th surface is done
+
+master: no work to be done: exitting...
+node  2: exitting...
+node  6: exitting...
+node  8: exitting...
+node 10: exitting...
+node 12: exitting...
+node 14: exitting...
+node 15: exitting...
+node 17: exitting...
+node 19: exitting...
+node 25: exitting...
+node 27: exitting...
+node 29: exitting...
+node 30: exitting...
+node 32: exitting...
+node 36: exitting...
+node 38: exitting...
+node 42: exitting...
+node 44: exitting...
+node 45: exitting...
+node 51: exitting...
+node 53: exitting...
+node 56: exitting...
+node 57: exitting...
+node 59: exitting...
+node 60: exitting...
+node 64: exitting...
+node 66: exitting...
+node 70: exitting...
+node 72: exitting...
+node 74: exitting...
+
+Comm::cleanup: MPI round up ...
+free(): invalid pointer
+node 28: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 28: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 24: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 24: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 67: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 67: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 34: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+node 34: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 22: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 22: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 41: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 41: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 31: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 31: signal_handler: Oops!!! signal 6 has been received
+node 14: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 14: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 14: signal_handler: Oops!!! signal 6 has been received
+node  1: signal_handler: Oops!!! signal 15 has been received
+node  2: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node  2: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  2: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  4: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  4: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  3: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  3: signal_handler: Oops!!! signal 6 has been received
+node 13: signal_handler: Oops!!! signal 15 has been received
+node  6: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node  6: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  6: signal_handler: Oops!!! signal 6 has been received
+node  5: signal_handler: Oops!!! signal 15 has been received
+node  8: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node  8: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  8: signal_handler: Oops!!! signal 6 has been received
+node 11: signal_handler: Oops!!! signal 15 has been received
+node 10: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node  9: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  9: signal_handler: Oops!!! signal 6 has been received
+node 12: signal_handler: Oops!!! signal 15 has been received
+node  7: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node  7: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node  7: signal_handler: Oops!!! signal 6 has been received
+master: signal_handler: received stop request from the user: 15
+node 45: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 45: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 45: signal_handler: Oops!!! signal 6 has been received
+node 48: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 48: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 48: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 50: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 50: signal_handler: Oops!!! signal 6 has been received
+node 58: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 58: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 58: signal_handler: Oops!!! signal 6 has been received
+node 59: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 59: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 59: signal_handler: Oops!!! signal 6 has been received
+node 47: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 47: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 47: signal_handler: Oops!!! signal 6 has been received
+node 51: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 51: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 51: signal_handler: Oops!!! signal 6 has been received
+node 49: signal_handler: Oops!!! signal 15 has been received
+node 53: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 53: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 53: signal_handler: Oops!!! signal 6 has been received
+node 54: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 54: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 54: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 46: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 46: signal_handler: Oops!!! signal 6 has been received
+node 56: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 56: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 56: signal_handler: Oops!!! signal 6 has been received
+node 57: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 57: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 57: signal_handler: Oops!!! signal 6 has been received
+node 52: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 52: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 52: signal_handler: Oops!!! signal 6 has been received
+node 55: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 55: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 55: signal_handler: Oops!!! signal 6 has been received
+node 15: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 15: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 15: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 20: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 20: signal_handler: Oops!!! signal 6 has been received
+node 17: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 17: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 17: signal_handler: Oops!!! signal 6 has been received
+node 29: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 29: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 29: signal_handler: Oops!!! signal 6 has been received
+node 19: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 19: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 19: signal_handler: Oops!!! signal 6 has been received
+node 16: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 16: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 16: signal_handler: Oops!!! signal 6 has been received
+node 23: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 23: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 23: signal_handler: Oops!!! signal 6 has been received
+node 18: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 18: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 18: signal_handler: Oops!!! signal 6 has been received
+node 21: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 21: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 21: signal_handler: Oops!!! signal 6 has been received
+node 26: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 26: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 26: signal_handler: Oops!!! signal 6 has been received
+node 27: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 27: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 27: signal_handler: Oops!!! signal 6 has been received
+node 25: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 25: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 25: signal_handler: Oops!!! signal 6 has been received
+node 60: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 60: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 60: signal_handler: Oops!!! signal 6 has been received
+node 71: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 71: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 71: signal_handler: Oops!!! signal 6 has been received
+node 30: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 30: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 30: signal_handler: Oops!!! signal 6 has been received
+node 74: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 74: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 74: signal_handler: Oops!!! signal 6 has been received
+node 44: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 44: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 44: signal_handler: Oops!!! signal 6 has been received
+node 69: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 69: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 69: signal_handler: Oops!!! signal 6 has been received
+node 32: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 32: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 32: signal_handler: Oops!!! signal 6 has been received
+node 64: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 64: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 64: signal_handler: Oops!!! signal 6 has been received
+node 40: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 40: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 40: signal_handler: Oops!!! signal 6 has been received
+node 65: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 65: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 65: signal_handler: Oops!!! signal 6 has been received
+node 42: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 42: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 42: signal_handler: Oops!!! signal 6 has been received
+node 66: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 66: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 66: signal_handler: Oops!!! signal 6 has been received
+node 39: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 39: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 39: signal_handler: Oops!!! signal 6 has been received
+node 62: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 62: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 62: signal_handler: Oops!!! signal 6 has been received
+node 36: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 36: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 36: signal_handler: Oops!!! signal 6 has been received
+node 61: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 61: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 61: signal_handler: Oops!!! signal 6 has been received
+node 43: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 43: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 43: signal_handler: Oops!!! signal 6 has been received
+node 68: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 68: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 68: signal_handler: Oops!!! signal 6 has been received
+node 38: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 38: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 38: signal_handler: Oops!!! signal 6 has been received
+node 70: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 70: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 70: signal_handler: Oops!!! signal 6 has been received
+node 33: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 33: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 33: signal_handler: Oops!!! signal 6 has been received
+node 73: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 73: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 73: signal_handler: Oops!!! signal 6 has been received
+node 37: signal_handler: Oops!!! signal 15 has been received
+node 72: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 72: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 72: signal_handler: Oops!!! signal 6 has been received
+node 35: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 35: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 35: signal_handler: Oops!!! signal 6 has been received
+node 63: signal_handler: Oops!!! signal 15 has been received
+free(): invalid pointer
+node 63: signal_handler: Oops!!! signal 6 has been received
+free(): invalid pointer
+node 63: signal_handler: Oops!!! signal 6 has been received
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[34723,1],28]
+  Exit code:    1
+--------------------------------------------------------------------------

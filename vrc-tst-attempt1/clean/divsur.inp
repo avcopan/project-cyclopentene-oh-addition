@@ -1,0 +1,24 @@
+PivotPoints     1
+Frame 0 0 0 0
+
+x1 = 0  y1 = 0 z1 = 0
+
+PivotPoints     1
+Frame 0 0 0 0
+
+x2 = 0  y2 = 0 z2 = 0
+
+
+Distances
+
+r1 = r
+
+Conditions 0
+
+Cycles 1
+
+r = (16., 14., 12., 10.5, 9.5, 9.0, 8.5, 8.)
+
+EndSurface
+
+
