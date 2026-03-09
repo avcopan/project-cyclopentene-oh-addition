@@ -25,3 +25,18 @@ rotd -h csed-0019 -f machines tst.inp
 ```
 
 Watch progress in `tst.log`
+
+
+Finally:
+1. `mc_flux.inp`: Input file for `mc_flux` executable. By default, it reads from `tst.inp`, so you only have to set the output file.
+```
+echo "OutputFile  mc_flux.dat" > mc_flux.inp
+mc_flux mc_flux.inp
+```
+If you have multiple PESs, such as excited states, you can add the `"ElectronicSurface"` keyword to select one by index.
+```
+echo -e "OutputFile mc_flux0.dat\nElectronicSurface 0" > mc_flux0.inp
+mc_flux mc_flux0.inp
+echo -e "OutputFile mc_flux1.dat\nElectronicSurface 1" > mc_flux1.inp
+mc_flux mc_flux1.inp
+```
