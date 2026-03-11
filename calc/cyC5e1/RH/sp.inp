@@ -1,0 +1,6 @@
+# 
+% MaxCore 9000
+! PAL8
+! uhf ccsd(t)-f12/ri cc-pvdz-f12 cc-pvdz-f12-cabs cc-pvtz/c
+* xyzfile 0 1 opt.xyz
+

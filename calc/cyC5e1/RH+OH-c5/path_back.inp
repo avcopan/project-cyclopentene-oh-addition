@@ -1,0 +1,11 @@
+% MaxCore 6000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
+! VeryTightSCF DefGrid3
+! Opt
+! NumFreq
+%geom
+   MaxIter        500
+   Convergence    Tight
+end
+* xyzfile 0 2 path_init_back.xyz

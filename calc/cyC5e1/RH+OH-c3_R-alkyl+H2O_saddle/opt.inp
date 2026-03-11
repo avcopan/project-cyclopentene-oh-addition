@@ -1,0 +1,11 @@
+% MaxCore 6000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
+! VeryTightSCF DefGrid3
+! OptTS
+! NumFreq
+%geom 
+   InHess      read
+   InHessName  "guess.hess"
+end
+* xyzfile 0 2 guess.xyz

@@ -1,0 +1,12 @@
+% MaxCore 6000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
+! VeryTightSCF DefGrid3
+! OptTS
+! NumFreq
+%geom 
+   Calc_Hess true
+   NumHess   true
+   MaxIter   100
+end
+* xyzfile 0 2 guess.xyz

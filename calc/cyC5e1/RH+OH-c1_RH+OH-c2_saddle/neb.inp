@@ -1,17 +1,15 @@
-% MaxCore 10000
+% MaxCore 6000
 ! PAL8
 ! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
-! Tight-NEB-TS
+! VeryTightSCF DefGrid3
+! Zoom-NEB-TS
 ! NumFreq
 
 %neb
     neb_end_xyzfile "RH+OH-c2.xyz" 
 end
-%scf
-   Convergence    VeryTight
-end
 %geom
-   MaxIter        500
+   MaxIter        1000
    Convergence    Tight
 end
 
