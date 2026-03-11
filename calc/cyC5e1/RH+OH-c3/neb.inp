@@ -1,0 +1,16 @@
+% MaxCore 6000
+! PAL8
+! REVDSD-PBEP86-D4/2021 def2-TZVPP def2-TZVPP/c
+! VeryTightSCF DefGrid3
+! Zoom-NEB-TS
+! NumFreq
+
+%neb
+    neb_end_xyzfile "neb_end.xyz" 
+end
+%geom
+   MaxIter        1000
+   Convergence    Tight
+end
+
+* xyzfile 0 2 neb_start.xyz

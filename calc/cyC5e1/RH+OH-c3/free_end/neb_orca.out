@@ -171,10 +171,10 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Wed Mar 11 10:29:23 2026
-  * Host name:     a2-15
-  * Process ID:    3911002
-  * Working dir.:  /tmp/lscratch/avcopan/43529485
+  * Starting time: Wed Mar 11 10:59:01 2026
+  * Host name:     d2-22
+  * Process ID:    3427126
+  * Working dir.:  /tmp/lscratch/avcopan/43530844
   ***********************************
 
 NOTE: MaxCore=6000 MB was set to SCF,MP2,MDCI,CIPSI,MRCI,RASCI and CIS
@@ -249,16 +249,17 @@ NAME = neb.inp
 |  6> ! NumFreq
 |  7> 
 |  8> %neb
-|  9>     neb_end_xyzfile "neb_end.xyz" 
-| 10> end
-| 11> %geom
-| 12>    MaxIter        1000
-| 13>    Convergence    Tight
-| 14> end
-| 15> 
-| 16> * xyzfile 0 2 neb_start.xyz
-| 17> 
-| 18>                          ****END OF INPUT****
+|  9>     neb_end_xyzfile     "neb_end.xyz" 
+| 10>     Free_End            true
+| 11> end
+| 12> %geom
+| 13>    MaxIter        1000
+| 14>    Convergence    Tight
+| 15> end
+| 16> 
+| 17> * xyzfile 0 2 neb_start.xyz
+| 18> 
+| 19>                          ****END OF INPUT****
 ================================================================================
 
 
@@ -266,8 +267,10 @@ NAME = neb.inp
                         Nudged Elastic Band Calculation
 --------------------------------------------------------------------------------
 
-Number of images (incl. end points)     ....  10
-Number of intermediate images           ....  8
+Warning: End points are propagated according to the atomic force perp. to the path:
+         the end points need to be placed on opposite sides of the potential energy barrier
+Number of images (incl. end points)     ....  8
+Number of intermediate images           ....  6
 Number of optimized images              ....  8
 Optimization of end points before NEB   ....  NO
 Use existing gbw files for MO input     ....  NO
@@ -324,9 +327,10 @@ Threshold for zoom                      ....  4.00e-03 Eh/Bohr
   Auto selection                        ....  YES 
   Fraction of barrier to be incl.        ....  0.50 
   Selection offset from CI              ....  1 
-Free endpoints                          ....  off 
+Free endpoints                          ....  on 
+Type of end points                      ....  perp. 
 Tangent type                            ....  improved 
-Number of intermediate images           ....  8 
+Number of intermediate images           ....  6 
 Number of images free to move           ....  8 
 Spring type for image distribution      ....  distance between adjacent images 
 Spring constant                         ....  energy weighted (0.0100 -to- 0.1000) Eh/Bohr^2 
@@ -371,7 +375,7 @@ Minimize RMSD between reactant and product configurations     .... done
        RMSD after minimization          ....  0.9587 Bohr
 Performing linear interpolation         ....  done
 Generating initial path 1 out of 129 -> Success!
-Displacement along initial path:              8.1237 Bohr
+Displacement along initial path:              8.0586 Bohr
 Writing initial trajectory to file      ....  neb_initial_path_trj.xyz
 
 
@@ -390,26 +394,9 @@ Trajectory history will be written to    ....  neb_MEP_ALL_trj.xyz
 Converged CI will be written to          ....  neb_NEB-CI_converged.xyz
 Converged TS will be written to          ....  neb_NEB-TS_converged.xyz
 
-Single point energy and gradient calculation of reactant and
-product configurations (have to be performed only once)
-Properties of fixed NEB end points:
-               Reactant:
-                         E               ....   -270.653874 Eh
-                         RMS(F)          ....      0.004079 Eh/Bohr
-                         MAX(|F|)        ....      0.019296 Eh/Bohr
-      Warning: Reactant seems to be less converged than convergence tolerances.
-               You might want to use free end NEB or preopt_ends true.
-               Product:
-                         E               ....   -270.664596 Eh
-                         RMS(F)          ....      0.002389 Eh/Bohr
-                         MAX(|F|)        ....      0.008527 Eh/Bohr
-      Warning: Product seems to be less converged than convergence tolerances.
-               You might want to use free end NEB or preopt_ends true.
-
 
 
 Starting iterations:
 
 Optim.  Iteration  HEI  E(HEI)-E(0)  max(|Fp|)   RMS(Fp)    dS
 Switch-on CI threshold               0.020000 
-Warning: path is strictly decreasing in energy   LBFGS     0      0    0.000000    0.012292   0.003041  8.1237       
