@@ -413,3 +413,28 @@ Starting iterations:
 Optim.  Iteration  HEI  E(HEI)-E(0)  max(|Fp|)   RMS(Fp)    dS
 Switch-on CI threshold               0.020000 
 Warning: path is strictly decreasing in energy   LBFGS     0      0    0.000000    0.012292   0.003041  8.1237       
+Warning: path is strictly decreasing in energy   LBFGS     1      0    0.000000    0.010011   0.002414  8.1560       
+Warning: path is strictly decreasing in energy   LBFGS     2      0    0.000000    0.006765   0.001658  8.1505       
+Warning: path is strictly decreasing in energy   LBFGS     3      0    0.000000    0.013876   0.001904  8.1435       
+   LBFGS     4      0    0.000000    0.007945   0.001212  8.1552       
+   LBFGS     5      0    0.000000    0.004259   0.000739  8.1526       
+   LBFGS     6      0    0.000000    0.004001   0.000565  8.1522       
+   LBFGS     7      0    0.000000    0.005041   0.000923  8.1632       
+   LBFGS     8      0    0.000000    0.009957   0.001109  8.1992       
+   LBFGS     9      0    0.000000    0.020389   0.002547  8.2826       
+   LBFGS    10      0    0.000000    0.002676   0.000662  8.2830       
+
+                                .--------------------.
+          ----------------------|   NEB convergence  |-------------------------
+          Item                value                   Tolerance       Converged
+          ---------------------------------------------------------------------
+          RMS(Fp)             0.0006619055            0.0100000000      YES
+          MAX(|Fp|)           0.0026760546            0.0200000000      YES
+          ---------------------------------------------------------------------
+
+The elastic band has converged successfully to a MEP in 10 iterations. However, climbing image was never activated.
+
+---------------------------------------------------------------
+                 STARTING SECOND NEB OPTIMIZATION         
+---------------------------------------------------------------
+[file orca_main/main_driver_opt_neb.cpp, line 6859]: Terminal images can not be HEI for ZoomNEB

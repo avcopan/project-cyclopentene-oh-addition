@@ -1,0 +1,1 @@
+Filesystem location: /home/avcopan/proj/project-cyclopentane/save/RXN/C5H7.H2O/IPVZXTOKYLXFEK/0_0/2_1/UHFFFAOYSA-N/C5H8.HO/UGZOASBOAAXKSP/0_0/1_2/UHFFFAOYSA-N/2/wvs8QKU/TS/00/CONFS/rv3fYZ0bK1yR2/c-iu2stI15Oyz/SP/zheX6cU/sp.inp
